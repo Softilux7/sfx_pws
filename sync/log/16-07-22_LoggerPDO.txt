@@ -1,0 +1,12 @@
+[00:58:51][179.105.79.248]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[00:58:52][186.215.200.154]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[00:58:52][189.61.54.20]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[00:58:52][45.164.216.110]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[00:58:52][189.7.33.250]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[00:58:52][200.150.124.189]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 

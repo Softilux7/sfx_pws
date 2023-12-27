@@ -1,0 +1,36 @@
+[10:07:30][200.181.239.113]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:30][179.184.37.1]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:30][179.184.37.1]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:30][200.140.69.87]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:30][177.220.178.251]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:30][177.190.209.205]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:30][200.102.221.24]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:30][191.31.104.170]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:30][200.181.239.113]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:31][200.140.69.87]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:31][177.220.178.251]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:31][200.102.221.24]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:31][138.97.20.215]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:31][177.220.178.251]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:31][200.102.221.24]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:31][200.140.69.87]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:31][45.239.40.45]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 
+[10:07:31][177.220.178.251]> Connection failed: SQLSTATE[HY000] [2002] Connection refused
+ 

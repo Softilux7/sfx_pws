@@ -1,0 +1,8 @@
+[13:01:03][191.32.4.134]> Connection failed: SQLSTATE[HY000] [1045] Access denied for user 'root'@'45.183.131.246' (using password: YES)
+ 
+[13:01:03][191.32.4.134]> Connection failed: SQLSTATE[HY000] [1045] Access denied for user 'root'@'45.183.131.246' (using password: YES)
+ 
+[13:01:22][191.32.4.134]> Connection failed: SQLSTATE[HY000] [1045] Access denied for user 'root'@'45.183.131.246' (using password: YES)
+ 
+[13:01:22][191.32.4.134]> Connection failed: SQLSTATE[HY000] [1045] Access denied for user 'root'@'45.183.131.246' (using password: YES)
+ 
