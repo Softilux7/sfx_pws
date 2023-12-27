@@ -20,6 +20,7 @@
 # CakePHP 2
 
 /app/tmp/*
+/var/www/html/php_app/pws/app/Plugin/Pws/files/*
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
