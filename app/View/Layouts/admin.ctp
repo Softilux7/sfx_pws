@@ -198,6 +198,9 @@ $menus['AuthAclUserseditAccount'] = 5;
                                         <?php } ?>
                                     <?php } ?>
                                     <?php if ($auth_user_group['id'] == 1 || $auth_user_group['id'] == 6) { ?>
+                                        <li><?php echo $this->Html->link(__('Central de notificação'), array('plugin' => 'auth_acl', 'controller' => 'notifications', 'action' => 'add')); ?></li>
+                                    <?php } ?>
+                                    <?php if ($auth_user_group['id'] == 1 || $auth_user_group['id'] == 6) { ?>
                                         <li><?php echo $this->Html->link(__('Rastreamento de técnicos'), array('plugin' => 'pws', 'controller' => 'AcompanharAtendimento', 'action' => 'maps')); ?></li>
                                     <?php } ?>
                                     <?php if ($this->Acl->check('UsersLgpd', 'index', 'Pws') == true) { ?>
@@ -311,6 +314,29 @@ $menus['AuthAclUserseditAccount'] = 5;
             <div style="background: #cc0000;margin:0px;padding:0px;font-size:12px; color:#fff;display:flex;justify-content:center">
                 <div>Atenção entre em contato com a <strong><?php echo $_SESSION['auth_user']['Empresa'][0]['empresa_fantasia'];?></strong> no telefone <strong><?php echo $_SESSION['auth_user']['Empresa'][0]['ddd'] . ' ' . $_SESSION['auth_user']['Empresa'][0]['fone'];?></strong></div>
             </div>
+        <?php }?>
+
+        <?php if($_SESSION['auth_user']['User']['empresa_id'] == 42){ ?>
+            <div style="background: #cc0000;margin:0px;padding:0px;font-size:12px; color:#fff;display:flex;justify-content:center; ">
+                <div style="line-height: 17px; margin-left: 20%; margin-right: 20%;justify-content:center;text-align: left;"><strong style="font-size: 14px;">Caro Cliente</strong>, 
+                Gostaríamos de informar que, devido às chuvas recentes e aos alagamentos na região onde nossa empresa está localizada, estamos enfrentando dificuldades no atendimento e na logística para a entrega de suprimentos e equipamentos.
+                Assim que as condições climáticas melhorarem, estaremos retomando nossos serviços com normalidade. Pedimos desculpas pelos transtornos causados e agradecemos imensamente pela sua compreensão e apoio durante este período desafiador.</br>
+                Desejamos a todos segurança e bem-estar enquanto atravessamos essa situação. Estamos à disposição para qualquer esclarecimento adicional.</br>
+                <strong>Atenciosamente, equipe compucom</strong>
+                </div>
+            </div>
+        <?php }?>
+
+        <?php if($_SESSION['auth_user']['User']['empresa_id'] == 63){ ?>
+            <!-- <div style="background: #cc0000;margin:0px;padding:0px;font-size:12px; color:#fff;display:flex;justify-content:center; ">
+                <div style="line-height: 17px; margin-left: 20%; margin-right: 20%;justify-content:center;text-align: left;"><strong style="font-size: 14px;">Caro Cliente</strong>, 
+                Gostaríamos de informar que, devido às chuvas recentes e aos alagamentos na região onde nossa empresa está localizada, estamos enfrentando dificuldades no atendimento e na logística para a entrega de suprimentos e equipamentos.
+                Assim que as condições climáticas melhorarem, estaremos retomando nossos serviços com normalidade. Pedimos desculpas pelos transtornos causados e agradecemos imensamente pela sua compreensão e apoio durante este período desafiador.</br>
+                Informamos também que hoje, 08/05/2024, estamos sem energia elétrica e estamos aguardando a CIA de energia restabelecer os serviços.</br>
+                Desejamos a todos segurança e bem-estar enquanto atravessamos essa situação. Estamos à disposição para qualquer esclarecimento adicional.</br>
+                <strong>Atenciosamente, equipe TLT/Disktoner</strong>
+                </div>
+            </div> -->
         <?php }?>
         
     <!--
